@@ -1,0 +1,27 @@
+#container {
+    display: grid;
+    grid-template-rows: repeat(16,32px);
+    grid-template-columns: repeat(16,32px);
+    height:512px;
+    width:512px;
+    justify-content: center;
+    border: 1px solid grey;
+
+}
+
+#buttons {
+    display:flex;
+    margin-bottom: 5px;
+}
+
+#main {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+h3 {
+    text-align:center;
+}
+
